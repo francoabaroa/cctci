@@ -8,7 +8,6 @@ function replaceSpaces(string) {
       stringy[i] = '%20';
     }
   }
+
   return stringy.join('');
 }
-
-console.log(replaceSpaces('hello world bro how are you'));
